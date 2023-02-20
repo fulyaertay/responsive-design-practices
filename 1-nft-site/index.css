@@ -127,16 +127,6 @@ footer {
 
 /* ----- NAVIGATION ----- */
 
-/*
-  Challenge: Write initial nav styles
-    1. Center-align the header content
-    2. Apply a top margin to the nav element to create space
-       between the nav and subheading
-    3. Make sure that the center alignment, the nav’s top margin,
-       and dotted borders between links display only on viewport widths
-       narrower than 768px
-*/
-
 nav a {
     color: #fff;
     text-decoration: none;
@@ -178,11 +168,35 @@ ul {
     }  
 }
 
+/*
+  Challenge: Navigation styles for wider screens
+    1. Use flexbox to display the navigation horizontally
+       on one row when the screen is 768px or wider
+    2. Align the nav with the right edge of its container
+    3. Apply space between each link with a margin
+    4. On wider screens, all of the content inside the header
+       should be vertically centered
+*/
+
 @media (min-width: 768px) {
     header,
     section,
     footer {
         padding: 2.875em 0;        
+    }
+    
+    header .container,
+    nav ul {
+        display: flex;
+    }
+    
+    header .container {
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    nav li {
+        margin-left: 1.25em;
     }
     
     .btn {
