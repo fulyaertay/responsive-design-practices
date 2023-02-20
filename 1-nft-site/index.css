@@ -6,12 +6,6 @@ body {
 
 /* ----- TYPOGRAPHY ----- */
 
-/*
-  Challenge:
-   - Change all the font-sizes from em to rem:
-     h1, h2, h3, .subheading, and .btn
-*/
-
 h1, 
 h3 {
     margin: 0;
@@ -32,13 +26,20 @@ h3 {
     font-size: 1.25rem;
 }
 
+/*
+  Challenge:
+   - Set the line-height of the paragraph to a unitless value
+     that’s 150% larger than the font size
+*/
+
 p {
-    line-height: 23px;
+    font-size: 1em;
+    line-height: 1.5;
 }
 
 .subheading {
     display: block;
-    font-size: 1.25rem; /* 20 / 16 = 1.25 */
+    font-size: 1.25rem;
     color: #d0aaff;
 }
 
