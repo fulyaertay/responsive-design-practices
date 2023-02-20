@@ -16,8 +16,6 @@
 
   ### 1-NFT Site App
   
-  ### Visulation of the App
-
   ### Layout on mobile devices;
   ![image](./1-nft-site/nft.png)
   
