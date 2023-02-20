@@ -11,25 +11,19 @@ h3 {
     margin: 0;
 }
 
-/*
-  Challenge:
-   - Convert the font-size values of the
-     h1, h2, h3 and .subheading class from px to em
-*/
-
 h1 {
     color: whitesmoke;
-    font-size: 2.25em; /* 36/16 = 2.25 */
+    font-size: 2.25em;
 }
 
 h2 {
     color: #451c7a;
-    font-size: 1.75em; /* 28/16 = 1.75 */
+    font-size: 1.75em;
     margin-top: 0;
 }
 
 h3 {
-    font-size: 1.25em; /* 20/16 = 1.25 */
+    font-size: 1.25em;
 }
 
 p {
@@ -38,7 +32,7 @@ p {
 
 .subheading {
     display: block;
-    font-size: 0.56em; /* 20/36 = 0.56 */
+    font-size: 0.56em;
     color: #d0aaff;
 }
 
@@ -58,12 +52,21 @@ a:active {
     color: #d4b44c;
 }
 
+/*
+  Challenge:
+   1. Convert the padding value of .btn from px to em
+   2. Space buttons both horizontally and vertically using margins and em units
+   3. Convert the font-size of .btn from px to em
+*/
+
 .btn {
-    font-size: 18px;
+    font-size: 1.125em; /* 18/16 = 1.125 */
     font-weight: 500;
     text-decoration: none;
     display: inline-block;
-    padding: 10px 20px;
+    padding: 0.5em 1em;
+    margin-right: 0.5em;
+    margin-bottom: 1em;
     border-radius: 4.6px;
 }
 
@@ -90,10 +93,16 @@ a:active {
 
 /* ----- LAYOUT ----- */
 
+/*
+  Challenge:
+   1. Convert the padding of header, section, and footer from px to em
+   2. Convert the bottom-margin of .main-image from px to em
+*/
+
 header, 
 section, 
 footer {
-    padding: 46px 0;
+    padding: 2.875em 0; /* 46/16 = 2.875 */
 }
 
 header, 
@@ -115,7 +124,7 @@ header,
     width: 100%;
     display: block;
     max-width: 640px;
-    margin: 0 auto 32px;
+    margin: 0 auto 2em; /* 32/16 = 2 */
 }
 
 .section-two-image-container {
