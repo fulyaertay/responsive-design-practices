@@ -26,14 +26,7 @@ h3 {
     font-size: 1.25rem;
 }
 
-/*
-  Challenge:
-   - Set the line-height of the paragraph to a unitless value
-     that’s 150% larger than the font size
-*/
-
 p {
-    font-size: 1em;
     line-height: 1.5;
 }
 
@@ -123,15 +116,38 @@ header,
 
 .section-two-image-container {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
 .feature-image {
-    width: 48.8%;
     border-radius: 4.6px;
+    margin-bottom: 1em;
 }
 
 footer {
     text-align: center;
     color: #5f29a3;
+}
+
+/* ----- MEDIA QUERIES ----- */
+
+/*
+  Challenge:
+    1. Create a media query that targets a browser width
+       of 480px or wider
+    2. Within the media query, select .section-two-image-container
+       and add the flexbox property to display the images on the same row
+    3. Inside the media query, select .feature-image and 
+       add the fluid width for wider screens only
+*/
+
+@media (min-width: 480px) {
+    .section-two-image-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .feature-image {
+        width: 48.8%;     
+    }
 }
