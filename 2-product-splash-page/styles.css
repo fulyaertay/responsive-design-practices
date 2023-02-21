@@ -9,7 +9,19 @@ body {
    ================= */
 
 h1 {
+    font-size: 2.5rem;
     font-weight: 400;
+    text-shadow: 0 2px #816fca;
+}
+
+h2 {
+    font-size: 2.25rem;
+    margin: 0.167em 0;
+}
+
+p {
+    font-size: 1.125rem;
+    line-height: 1.35;
 }
 
 .beta-text { 
@@ -18,43 +30,111 @@ h1 {
 
 .subheading {
     color: #575757;
-    font-weight: 900;
+    font-weight: 900;  
+    margin-bottom: 0.5em;
+}
+
+.beta-text,
+.subheading {
+    text-transform: uppercase;
+}
+
+.fine-print {
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    color: #858585;
+}
+
+/* =================
+    Flex containers
+   ================= */
+
+.intro,
+.main-content {
+    display: flex;
+    flex-direction: column; 
+    padding-left: 2em;
+    padding-right: 2em;   
 }
 
 /* =================
     Intro
    ================= */
 
-/* 
-  Challenge: Style the .intro section
-    - Convert into a flex container; 
-      display its content in a column
-    - Set a minimum height of 250px
-    - Center-align its content
-    - Vertically center the content
-    - Remove the space around the edges of the page
-*/
-
 .intro { 
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     min-height: 250px;
     text-align: center;
     color: #fff;
-    background-color: #9480e4;
+    background: #9480e4 url("images/intro-bg.png");
+    background-size: cover;
 }
 
 /* ====================
     Main content
    ==================== */
+   
+.main-content {
+    align-items: center;
+    padding-top: 2.5em;
+}
 
+.img-main {
+    width: 120px;
+    border-radius: 50%;
+}
 
 /* =================
     Form
    ================= */
-   
+
+/* 
+  Challenge: Style the form inputs
+    - Display each input on a separate line so they
+      expand to the full width of their container
+    - Use a bottom margin to create space between the input elements
+    - Apply a padding in em that's equal to half the input's
+      font-size to all 4 sides
+*/
+
+input {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 0.75em;
+}
 
 /* =================
     Media queries 
    ================= */
+
+@media (min-width: 576px) {
+    body {
+        display: flex;
+    }
+    
+    h1 {
+        font-size: 5vw;
+    }
+    
+    h2 {
+        font-size: 2.625rem;
+    }
+    
+    .beta-text {
+        font-size: 1.25rem;
+    }
+    
+    .intro,
+    .main-content {
+        width: 50%;
+    }
+    
+    .intro {
+        min-height: 100vh;
+    }
+    
+    .main-content {
+        justify-content: center;
+        padding-top: 0;
+    }
+}
