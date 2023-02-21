@@ -57,4 +57,4 @@
   - Viewport units(vw,vh)
   - Flexbox orders
   - Box-sizing property
-  - Styles form elements, modifies, pseudo classes like :hover, :focus
+  - Styles form elements, modifiers, pseudo classes like :hover, :focus
