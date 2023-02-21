@@ -46,7 +46,9 @@ p {
 .intro,
 .main-content {
     display: flex;
-    flex-direction: column;    
+    flex-direction: column; 
+    padding-left: 2em;
+    padding-right: 2em;   
 }
 
 /* =================
@@ -68,8 +70,6 @@ p {
 .main-content {
     align-items: center;
     padding-top: 2.5em;
-    padding-left: 2em;
-    padding-right: 2em;
 }
 
 .img-main {
@@ -87,15 +87,29 @@ p {
    ================= */
    
 /* 
-  Challenge:
-    - Expand the height of .intro so that it takes up
-      the full height of the browser window
-    - Vertically center the content inside .main-content
+  Challenge: Adjust text for wider screens
+    - In the media query, increase the h1 font-size to
+      a rem value equal to 52px
+    - Increase the h2 font-size to a rem value equal to 42px
+    - Increase the font-size of .beta-text to a 
+      rem value equal to 20px
 */
 
 @media (min-width: 576px) {
     body {
         display: flex;
+    }
+    
+    h1 {
+        font-size: 5vw;
+    }
+    
+    h2 {
+        font-size: 2.625rem;
+    }
+    
+    .beta-text {
+        font-size: 1.25rem;
     }
     
     .intro,
