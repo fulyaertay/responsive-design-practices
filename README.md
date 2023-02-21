@@ -5,6 +5,7 @@
 - [Projects](#projects)
 
   - [1-NFT Site](#nft-site)
+  - [2-Product Splash Page](#splash-page)
 
 
   ## Overview
@@ -36,3 +37,24 @@
   - gap property
   - Responsive navbar
   - <meta viewport> tag
+  
+  
+  
+  ### 2-Product Splash Page
+  
+  ### Layout on mobile devices;
+  ![image](./2-product-splash-page/splash-page2.png)
+  
+  ### Layout on tablets or wider devices;
+  ![image](./2-product-splash-page/splash-page.png)
+  
+  ### Description
+
+
+  ### What I Learned?
+  
+  - Change the case of the text
+  - Viewport units(vw,vh)
+  - Flexbox orders
+  - Box-sizing property
+  - Styles form elements, modifies, pseudo classes like :hover, :focus
