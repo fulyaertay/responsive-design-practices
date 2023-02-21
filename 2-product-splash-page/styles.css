@@ -90,17 +90,25 @@ p {
 
 /* 
   Challenge: Style the form inputs
-    - Display each input on a separate line so they
-      expand to the full width of their container
-    - Use a bottom margin to create space between the input elements
-    - Apply a padding in em that's equal to half the input's
-      font-size to all 4 sides
+    - Give the inputs a solid 2px border using the value #d1d5db
+    - Round the corners of the input fields by 5px
+    - On focus, update an input’s border color to #8a71ec
+      and background color to #e6e8ec
 */
 
 input {
+    font-family: inherit;
     width: 100%;
     padding: 0.5em;
     margin-bottom: 0.75em;
+    border: 2px solid #d1d5db;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #8a71ec;
+    background-color: #e6e8ec;
 }
 
 /* =================
