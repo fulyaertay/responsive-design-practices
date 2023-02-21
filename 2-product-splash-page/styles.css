@@ -16,6 +16,7 @@ h1 {
     font-size: 2.5rem;
     font-weight: 400;
     text-shadow: 0 2px #816fca;
+  
 }
 
 h2 {
@@ -30,6 +31,7 @@ p {
 
 .beta-text { 
     font-weight: 900;
+
 }
 
 .subheading {
@@ -97,6 +99,7 @@ p {
 .img-main {
     width: 120px;
     border-radius: 50%;
+ 
 }
 
 .main-content p,
