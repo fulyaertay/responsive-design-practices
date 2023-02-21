@@ -35,8 +35,28 @@ p {
 }
 
 .beta-text,
+.top-text,
 .subheading {
     text-transform: uppercase;
+}
+
+/* 
+  Challenge: 
+    Adjust the visual order of .top-text and re-distribute
+    the space inside .intro: 
+      - Display .top-text above the h1 and align it to 
+        the top edge of the .intro section
+      - Evenly distribute the content inside .intro
+      - The top border of .top-text should match the width of the text
+*/
+
+.top-text {
+    font-size: 0.875rem;
+    font-weight: 900;
+    padding-top: 0.25em;
+    border-top: 5px solid;
+    order: -1;
+    margin: 0 auto;
 }
 
 .fine-print {
@@ -62,12 +82,13 @@ p {
    ================= */
 
 .intro { 
-    justify-content: center;
+    justify-content: space-between;
     min-height: 250px;
     text-align: center;
     color: #fff;
     background: #9480e4 url("images/intro-bg.png");
     background-size: cover;
+    padding-bottom: 1.5em;
 }
 
 /* ====================
@@ -87,28 +108,44 @@ p {
 /* =================
     Form
    ================= */
-
-/* 
-  Challenge: Style the form inputs
-    - Give the inputs a solid 2px border using the value #d1d5db
-    - Round the corners of the input fields by 5px
-    - On focus, update an input’s border color to #8a71ec
-      and background color to #e6e8ec
-*/
+   
+input,
+button {
+    font-family: inherit;
+    width: 100%; 
+    border-radius: 5px;   
+}
 
 input {
-    font-family: inherit;
-    width: 100%;
     padding: 0.5em;
     margin-bottom: 0.75em;
     border: 2px solid #d1d5db;
-    border-radius: 5px;
 }
 
 input:focus {
     outline: none;
     border-color: #8a71ec;
     background-color: #e6e8ec;
+}
+
+.btn {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 1px;
+    padding: 1em 0;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #8a71ec;
+    margin-top: 1em;    
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #b7a7f6;
 }
 
 /* =================
