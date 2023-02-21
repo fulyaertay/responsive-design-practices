@@ -1,3 +1,7 @@
+*, *::before, *::after {
+    box-sizing: border-box;  
+}
+
 body {
     font-family: 'Source Sans Pro', sans-serif;
     color: #404040;
@@ -39,16 +43,6 @@ p {
 .subheading {
     text-transform: uppercase;
 }
-
-/* 
-  Challenge: 
-    Adjust the visual order of .top-text and re-distribute
-    the space inside .intro: 
-      - Display .top-text above the h1 and align it to 
-        the top edge of the .intro section
-      - Evenly distribute the content inside .intro
-      - The top border of .top-text should match the width of the text
-*/
 
 .top-text {
     font-size: 0.875rem;
@@ -105,10 +99,15 @@ p {
     border-radius: 50%;
 }
 
+.main-content p,
+form {
+    max-width: 450px;
+}
+
 /* =================
     Form
    ================= */
-   
+
 input,
 button {
     font-family: inherit;
