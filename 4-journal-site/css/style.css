@@ -6,9 +6,6 @@ body {
   font-family: "Roboto", sans-serif;
   width: 100% !important;
   overflow-x: hidden;
-
-
-
 }
 /* =================
 Header
@@ -16,7 +13,7 @@ Header
 
 header {
   width: 100%;
-  min-width:500px;
+  min-width: 500px;
   padding: 10px 30px;
 }
 .head {
@@ -33,13 +30,11 @@ header {
   max-width: 1100px;
   width: 100%;
   align-items: center;
-
 }
 
 .logo {
   width: 30px;
   height: 30px;
-
 }
 .home-about {
   display: flex;
@@ -128,44 +123,40 @@ footer {
   font-weight: 100;
 }
 
-@media(max-width:576px){
-    .blog-list {
-      width:100vw;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 20px;
-      }
-      .image-content {
-        width: 100vw;
-        height: 450px;
-        background-image: url("../images/blog-image-hero.png");
-        background-size: cover;
-        max-height: 800px;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        padding-left: 30px;
-        line-height: 0px;
-      }
-      .content {
-        padding-bottom: 50px;
-        width: 400px;
-        line-height: 20px;
-        font-size:14px;
-      }
-      .image-title{
-        font-size: 14px;
-      }
-      .blog-content {
-        letter-spacing: 1px;
-        width:400px;
-      }
-      .home-about {
-        display: flex;
-        width: 600px;
-      }
+@media (max-width: 576px) {
+  .blog-list {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+  }
+  .image-content {
+    width: 100vw;
+    height: 450px;
+    background-image: url("../images/blog-image-hero.png");
+    background-size: cover;
+    max-height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 30px;
+    line-height: 0px;
+  }
+  .content {
+    padding-bottom: 50px;
+    width: 400px;
+    line-height: 20px;
+    font-size: 14px;
+  }
+  .image-title {
+    font-size: 14px;
+  }
+  .blog-content {
+    letter-spacing: 1px;
+    width: 400px;
+  }
+  .home-about {
+    display: flex;
+    width: 600px;
+  }
 }
-
-
-
-
