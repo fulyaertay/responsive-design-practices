@@ -6,6 +6,7 @@
 
   - [1-NFT Site](#nft-site)
   - [2-Product Splash Page](#splash-page)
+  - [3-Blog Page](#blog-page)
 
 
   ## Overview
@@ -58,3 +59,24 @@
   - Flexbox orders
   - Box-sizing property
   - Styles form elements, modifiers, pseudo classes like :hover, :focus
+  
+  
+   
+  ### 3-Blog Page
+  
+  ### Layout on mobile devices;
+  ![image](./3-blog-page/blog2.png)
+  
+  ### Layout on tablets or wider devices;
+  ![image](./3-blog-page/blog3.png)
+  
+  ### Description
+
+
+  ### What I Learned?
+  
+  - CSS Grids: grid-template-columns
+  - grid-gap
+  - minmax()
+  - fr unit
+  - grid areas and media queries
