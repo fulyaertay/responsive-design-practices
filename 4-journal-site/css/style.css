@@ -5,6 +5,7 @@ body {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   height: 100vh;
+  width:100vw;
 }
 /* =================
 Header
@@ -16,6 +17,7 @@ header {
 }
 .head {
   color: black;
+  margin-left: 10px;
 }
 .logo-text-home {
   display: flex;
@@ -24,14 +26,16 @@ header {
 }
 .logo-text {
   display: flex;
-  max-width: 1200px;
+  max-width: 1100px;
   width: 100%;
   align-items: center;
+
 }
 
 .logo {
   width: 30px;
   height: 30px;
+
 }
 .home-about {
   display: flex;
