@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
 header{
@@ -64,8 +65,20 @@ h2,h4,h3,h6{
     line-height: 20px;
 }
 .blog-list{
-    padding:30px;
+    padding:0 30px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap:  20px;
+   
+    
+}
+.blog{
+    display: flex;
+    flex-direction: column;
+
+}
+.blog-date, .blog-title,.blog-content{
+    color: rgb(41, 38, 38);
+    margin: 10px;
+
 }
