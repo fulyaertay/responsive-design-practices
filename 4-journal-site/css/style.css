@@ -65,7 +65,7 @@ h2,h4,h3,h6{
     line-height: 20px;
 }
 .blog-list{
-    padding:0 30px;
+    padding:40 30px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap:  20px;
@@ -81,7 +81,7 @@ h2,h4,h3,h6{
     padding-top: 10px;
 }
 .blog-date, .blog-title,.blog-content{
-    color: rgb(41, 38, 38);
+    color: rgb(20, 20, 20);
     margin: 5px;
 
 }
