@@ -63,3 +63,9 @@ h2,h4,h3,h6{
     width:500px;
     line-height: 20px;
 }
+.blog-list{
+    padding:30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:  20px;
+}
