@@ -65,10 +65,10 @@
   ### 3-Blog Page
   
   ### Layout on mobile devices;
-  ![image](./3-blog-page/blog2.png)
+  ![image](./3-blog-site/blog2.png)
   
   ### Layout on tablets or wider devices;
-  ![image](./3-blog-page/blog3.png)
+  ![image](./3-blog-site/blog.png)
   
   ### Description
 
