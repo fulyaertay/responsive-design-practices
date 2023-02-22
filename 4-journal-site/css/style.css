@@ -77,8 +77,15 @@ h2,h4,h3,h6{
     flex-direction: column;
 
 }
+.blog-date{
+    padding-top: 10px;
+}
 .blog-date, .blog-title,.blog-content{
     color: rgb(41, 38, 38);
-    margin: 10px;
+    margin: 5px;
 
+}
+.blog-content{
+    color:rgb(94, 91, 88);
+    letter-spacing: 1px;
 }
