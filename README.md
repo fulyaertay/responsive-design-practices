@@ -87,8 +87,9 @@
   ### 4-Journal Site
   
   ### Layout on mobile devices;
-  ![image](./4-journal-site/journal-desktop.png)
+  ![image](./4-journal-site/journal-mobile.png)
+
   
   ### Layout on tablets or wider devices;
-  ![image](./4-journal-site/journal-mobile.png)
+  ![image](./4-journal-site/journal-desktop.png)
   
