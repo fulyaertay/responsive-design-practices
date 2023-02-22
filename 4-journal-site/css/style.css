@@ -7,8 +7,14 @@ body {
 
 header{
     width: 100%;
+    padding: 20px;
+
+}
+.logo-text-home{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+
 }
 .logo-text{
   display: flex;
@@ -22,4 +28,13 @@ header{
     width:30px;
     height: 30px;
 
+
+}
+.home-about{
+    display: flex;
+    width: 200px;
+
+}
+h4{
+    margin-right: 20px;
 }
