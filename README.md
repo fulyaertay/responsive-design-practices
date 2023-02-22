@@ -7,6 +7,7 @@
   - [1-NFT Site](#nft-site)
   - [2-Product Splash Page](#splash-page)
   - [3-Blog Page](#blog-page)
+  - [4-Journal Site](#journal)
 
 
   ## Overview
@@ -80,3 +81,14 @@
   - minmax()
   - fr unit
   - grid areas and media queries
+  
+  
+  
+  ### 4-Journal Site
+  
+  ### Layout on mobile devices;
+  ![image](./3-journal-site/journal-desktop.png)
+  
+  ### Layout on tablets or wider devices;
+  ![image](./3-journal-site/journal-mobile.png)
+  
