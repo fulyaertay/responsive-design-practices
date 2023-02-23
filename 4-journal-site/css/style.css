@@ -10,7 +10,9 @@ body {
 /* =================
 Header
 ================= */
-
+a{
+  text-decoration: none;
+}
 header {
   width: 100%;
   min-width: 500px;
