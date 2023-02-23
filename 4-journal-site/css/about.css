@@ -236,9 +236,7 @@ footer {
     align-items: center;
     padding: 35px;
   }
-  .column-text{
- 
-        margin-left: 30px;
-      
+  .column-text {
+    margin-left: 30px;
   }
 }
