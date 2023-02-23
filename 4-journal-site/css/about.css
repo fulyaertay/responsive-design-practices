@@ -181,7 +181,22 @@ footer {
     text-align: left;
 }
 }
-
+.h3-me{
+    color: #202020;
+}
+.me{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.column-text{
+    margin-left: 40px;
+}
+.avatar{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+}
 
 @media (min-width: 768px)   {
     .blog-list {
