@@ -1,0 +1,165 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  width: 100% !important;
+  overflow-x: hidden;
+}
+/* =================
+Header
+================= */
+a{
+  text-decoration: none;
+}
+header {
+  width: 100%;
+  min-width: 500px;
+  padding: 10px 30px;
+}
+.head {
+  color: black;
+  margin-left: 10px;
+}
+.logo-text-home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-text {
+  display: flex;
+  max-width: 1100px;
+  width: 100%;
+  align-items: center;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+}
+.home-about {
+  display: flex;
+  width:300px;
+}
+h4 {
+  margin-right: 20px;
+}
+
+/* =================
+Layout
+================= */
+.image-content {
+  width: 100vw;
+  height: 488px;
+
+  background-image: url("../images/blog-image-hero.png");
+  background-size: cover;
+  max-height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 30px;
+  line-height: 0px;
+  margin-bottom: 40px;
+}
+
+h2,
+h4,
+h3,
+h6 {
+  color: white;
+}
+.content {
+  padding-bottom: 50px;
+  width: 650px;
+  line-height: 20px;
+}
+/* =================
+Blog List
+================= */
+.recent-posts{
+    text-align: center;
+    color: #202020;
+}
+.blog-list {
+  padding: 40px 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.blog {
+  display: flex;
+  flex-direction: column;
+}
+.blog-date {
+  padding-top: 10px;
+}
+.blog-date,
+.blog-title,
+.blog-content {
+  color: rgb(20, 20, 20);
+  margin: 5px;
+}
+.blog-list {
+  color: rgb(94, 91, 88);
+  letter-spacing: 1px;
+}
+
+/* =================
+Footer
+================= */
+footer {
+  width: 100%;
+  text-align: center;
+  background-color: #202020;
+  padding: 10px;
+}
+.footer-journal,
+.footer-copy {
+  color: white;
+}
+.footer-copy {
+  font-weight: 100;
+}
+
+@media (max-width: 320px) and (max-width: 426px)   {
+  .blog-list {
+    max-width: 200px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+  }
+  .image-content {
+    width: 100%;
+
+    height: 200px;
+    background-image: url("../images/blog-image-hero.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 30px;
+    line-height: 0px;
+  }
+  .content {
+    padding-bottom: 50px;
+    width: 400px;
+    line-height: 20px;
+    font-size: 14px;
+  }
+  .image-title {
+    font-size: 14px;
+  }
+  .blog-list {
+    letter-spacing: 1px;
+    width: 400px;
+  }
+  .home-about {
+    display: flex;
+    width: 600px;
+  }
+}
+
