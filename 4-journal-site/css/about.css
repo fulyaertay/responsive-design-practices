@@ -6,6 +6,7 @@ body {
   font-family: "Roboto", sans-serif;
   width: 100% !important;
   overflow-x: hidden;
+  background-color: #FAFAFA;
 }
 /* =================
 Header
@@ -69,6 +70,16 @@ h4,
 h3,
 h6 {
   color: white;
+}
+.head-text{
+    color:#202020;
+    font-weight: 800;
+}
+p{
+    font-size: 0.9rem;
+}
+.header-text{
+    padding: 15px 70px;
 }
 .content {
   padding-bottom: 50px;
