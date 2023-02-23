@@ -135,12 +135,13 @@ footer {
   font-weight: 100;
 }
 
-@media (max-width: 320px) and (max-width: 426px)   {
+@media (min-width: 320px) and (max-width: 426px)   {
   .blog-list {
     max-width: 200px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 20px;
+    text-align: center;
   }
   .image-content {
     width: 100%;
@@ -173,5 +174,11 @@ footer {
     display: flex;
     width: 600px;
   }
+  .header-text{
+    padding: 0px 20px;
+}
+.blog{
+    text-align: left;
+}
 }
 
