@@ -182,3 +182,34 @@ footer {
 }
 }
 
+
+@media (min-width: 768px)   {
+    .blog-list {
+      max-width: 200px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+      text-align: center;
+    }
+
+    .content {
+      padding-bottom: 50px;
+      width: 400px;
+      line-height: 20px;
+      font-size: 14px;
+    }
+    .image-title {
+      font-size: 14px;
+    }
+    .blog-list {
+      letter-spacing: 1px;
+      width: 400px;
+    }
+    .home-about {
+      display: flex;
+      width: 600px;
+    }
+
+
+  }
+  
