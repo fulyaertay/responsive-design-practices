@@ -51,6 +51,20 @@ h4 {
 /* =================
 Layout
 ================= */
+.me{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.column-text{
+    margin-left: 40px;
+}
+.avatar{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
 .image-content {
   width: 100vw;
   height: 488px;
@@ -186,16 +200,7 @@ footer {
 }
 .me{
     display: flex;
-    align-items: center;
-    padding: 20px;
-}
-.column-text{
-    margin-left: 40px;
-}
-.avatar{
-    width:200px;
-    height: 200px;
-    border-radius: 50%;
+    flex-direction: column;
 }
 
 @media (min-width: 768px)   {
@@ -224,6 +229,7 @@ footer {
       display: flex;
       width: 600px;
     }
+
 
 
   }
