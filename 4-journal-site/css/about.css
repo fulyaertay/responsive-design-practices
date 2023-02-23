@@ -56,6 +56,9 @@ Layout
     align-items: center;
     padding: 20px;
 }
+.h3-me{
+    color: #202020;
+}
 .column-text{
     margin-left: 40px;
 }
@@ -186,7 +189,7 @@ footer {
   }
   .home-about {
     display: flex;
-    width: 600px;
+    width: 700px;
   }
   .header-text{
     padding: 0px 20px;
@@ -194,14 +197,14 @@ footer {
 .blog{
     text-align: left;
 }
-}
-.h3-me{
-    color: #202020;
-}
+
+
 .me{
     display: flex;
     flex-direction: column;
 }
+}
+
 
 @media (min-width: 768px)   {
     .blog-list {
@@ -227,7 +230,12 @@ footer {
     }
     .home-about {
       display: flex;
-      width: 600px;
+      width: 300px;
+    }
+    .me{
+        display: flex;
+        align-items: center;
+        padding: 35px;
     }
 
 
