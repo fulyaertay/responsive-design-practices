@@ -103,7 +103,8 @@
     - text-colors:
        - hex( #202020),
        - rgb(20, 20, 20), rgb(94, 91, 88);
-    - background-color:hex(#fafafa);
+    - background-color:
+       - hex(#fafafa);
     
   - Icon Set:
     - https://tablericons.com/
